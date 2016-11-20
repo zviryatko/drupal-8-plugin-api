@@ -5,7 +5,11 @@
     "intro/i-am-zviryatko.html",
     "intro/i-work-for-adyax.html",
     "intro/i-worked-for-anyforsoft.html",
-    "drupal-8-plugin-api/1-what-is/the-talk.html",
+    "drupal-8-plugin-api/the-talk.html",
     "drupal-8-plugin-api/1-what-is/what-is-plugin-in-d8.html",
-    "drupal-8-plugin-api/1-what-is/block-plugin-example.html"
+    "drupal-8-plugin-api/1-what-is/block-plugin-example.html",
+    "drupal-8-plugin-api/2-how-to-add/how-to-add-custom-plugin.html",
+    "drupal-8-plugin-api/2-how-to-add/where-put-my-files.html",
+    "drupal-8-plugin-api/2-how-to-add/how-to-define.html",
+    "drupal-8-plugin-api/2-how-to-add/what-the-code.html"
 ]

@@ -6,18 +6,18 @@
  * @Block(
  *   id = "simple_message",
  *   admin_label = @Translation("Simple Message"),
- *   category = @Translation("Block"),
  * )
  */
 class SimpleMessageBlock extends BlockBase {
-
   /**
    * {@inheritdoc}
    */
   public function build() {
-    return ['message' => [
-      '#markup' => $this->t('Just a simple message.'),
-    ]];
+    return [
+      'message' => [
+        '#markup' => $this->t('Just a simple message.'),
+      ],
+    ];
   }
 }
 </code></pre>
