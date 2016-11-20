@@ -898,3 +898,6 @@ img.profile-picture {
 
 .reveal pre code {
   max-height: 600px; }
+
+.reveal .slides section .fragment.grow.visible {
+  transform: scale(1.3); }
