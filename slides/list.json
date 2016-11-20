@@ -14,11 +14,16 @@
     "drupal-8-plugin-api/2-how-to-add/what-the-code.html",
     "drupal-8-plugin-api/3-funny/looks-simple.html",
     {
-      "attr": {
-        "data-background": "resources/img/tired-puppy.png"
-      }
+        "attr": {
+            "data-background": "resources/img/tired-puppy.png"
+        }
     },
     "drupal-8-plugin-api/4-derivatives/what-is-derivatives.html",
     "drupal-8-plugin-api/4-derivatives/derivative-example.html",
-    "drupal-8-plugin-api/4-derivatives/how-it-works.html"
+    "drupal-8-plugin-api/4-derivatives/how-it-works.html",
+    "drupal-8-plugin-api/5-manager/plugin-manager.html",
+    "drupal-8-plugin-api/5-manager/why-you-need-it.html",
+    "drupal-8-plugin-api/5-manager/how-to-add.html",
+    "drupal-8-plugin-api/5-manager/plugin-manager-class.html",
+    "drupal-8-plugin-api/5-manager/how-to-use.html"
 ]

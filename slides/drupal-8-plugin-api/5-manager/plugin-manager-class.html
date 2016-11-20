@@ -1,0 +1,20 @@
+<p class="highlighted-3"><em>mymodule/src/SandwichPluginManager.php</em></p>
+<pre><code data-trim>
+class SandwichPluginManager extends DefaultPluginManager {
+  public function __construct(
+     \Traversable $namespaces,
+     CacheBackendInterface $cache_backend,
+     ModuleHandlerInterface $module_handler
+  ) {
+    parent::__construct(
+      'Plugin/Sandwich', // subdir where to search plugins
+      $namespaces,
+      $module_handler,
+      'Drupal\mymodule\SandwichInterface', // strict interface
+      'Drupal\Core\Annotation\Plugin' // annotation class
+    );
+    $this->alterInfo('sandwich_info');
+    $this->setCacheBackend($cache_backend, 'sandwich_info');
+  }
+}
+</code></pre>
