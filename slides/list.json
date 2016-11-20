@@ -13,5 +13,25 @@
     "drupal-8-plugin-api/2-how-to-add/how-to-define.html",
     "drupal-8-plugin-api/2-how-to-add/what-the-code.html",
     "drupal-8-plugin-api/3-funny/looks-simple.html",
-    "drupal-8-plugin-api/3-funny/tired-v1.html"
+    {
+        "attr": {
+            "data-background": "resources/img/tired-puppy.png"
+        }
+    },
+    "drupal-8-plugin-api/4-derivatives/what-is-derivatives.html",
+    "drupal-8-plugin-api/4-derivatives/derivative-example.html",
+    "drupal-8-plugin-api/4-derivatives/how-it-works.html",
+    "drupal-8-plugin-api/5-manager/plugin-manager.html",
+    "drupal-8-plugin-api/5-manager/why-you-need-it.html",
+    "drupal-8-plugin-api/5-manager/how-to-add.html",
+    "drupal-8-plugin-api/5-manager/plugin-manager-class.html",
+    "drupal-8-plugin-api/5-manager/how-to-use.html",
+    "drupal-8-plugin-api/6-discovery/plugin-discovery.html",
+    "drupal-8-plugin-api/6-discovery/annotation-discovery.html",
+    "drupal-8-plugin-api/6-discovery/yaml-discovery.html",
+    "drupal-8-plugin-api/6-discovery/static-discovery.html",
+    "drupal-8-plugin-api/6-discovery/hook-discovery.html",
+    "drupal-8-plugin-api/6-discovery/discovery-decorators.html",
+    "drupal-8-plugin-api/7-funny-v2/is-it-all.html",
+    "drupal-8-plugin-api/8-finish/thanx-for-watching.html"
 ]

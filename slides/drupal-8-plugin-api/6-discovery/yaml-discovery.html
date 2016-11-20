@@ -1,0 +1,24 @@
+<h2><span class="highlighted-2">Yaml</span> discovery</h2>
+
+<p class="fragment">Usefull for theme plugins, like <span class="highlighted-1">breakpoints</span> or <span class="highlighted-1">layouts</span></p>
+
+<div class="fragment">
+    <p class="highlighted-3"><em>core/themes/bartik/bartik.breakpoints.yml</em></p>
+    <pre><code data-trim>
+bartik.wide:
+  label: wide
+  mediaQuery: 'all and (min-width: 851px)'
+  multipliers:
+    - 1x
+    </code></pre>
+</div>
+
+<p class="fragment"><code>Drupal\breakpoint\BreakpointManager::$default</code> contain all possible keys</p>
+
+<div class="fragment">
+    <pre><code data-trim>
+$directories = $moduleHandler->getModuleDirectories() +
+        $themeHandler->getThemeDirectories();
+new YamlDiscovery('breakpoints', $directories);
+    </code></pre>
+</div>

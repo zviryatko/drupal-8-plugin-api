@@ -1,0 +1,20 @@
+<h2>Derivative example</h2>
+
+<div class="fragment">
+<p class="highlighted-3"><em>core/modules/system/src/Plugin/Block/SystemMenuBlock.php</em></p>
+<pre><code data-trim>
+/**
+ * @Block(
+ *   id = "system_menu_block",
+ *   admin_label = @Translation("Menu"),
+ *   category = @Translation("Menus"),
+ *   deriver = "Drupal\system\Plugin\Derivative\SystemMenuBlock"
+ * )
+ */
+class SystemMenuBlock extends BlockBase {
+    // ...
+}
+</code></pre>
+</div>
+
+<p class="fragment">This block used for all site menus</p>

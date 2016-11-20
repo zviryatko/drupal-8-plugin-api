@@ -1,0 +1,22 @@
+<h2>But how it works?</h2>
+
+<div class="fragment">
+    Check the <code class="highlighted-1">deriver</code> annotation property
+    <pre><code data-trim>deriver = "Drupal\system\Plugin\Derivative\SystemMenuBlock"</code></pre>
+</div>
+
+<div class="fragment">
+<p class="highlighted-3"><em>core/modules/system/src/Plugin/Derivative/SystemMenuBlock.php</em></p>
+<pre><code data-trim>
+class SystemMenuBlock extends DeriverBase {
+  // ...
+  public function getDerivativeDefinitions($base_definition) {
+    $blocks = $this->menuStorage->loadMultiple();
+    foreach ($blocks as $menu => $entity) {
+      $this->derivatives[$menu] = $base_definition;
+    }
+    return $this->derivatives;
+  }
+}
+</code></pre>
+</div>
