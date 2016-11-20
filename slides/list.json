@@ -25,5 +25,11 @@
     "drupal-8-plugin-api/5-manager/why-you-need-it.html",
     "drupal-8-plugin-api/5-manager/how-to-add.html",
     "drupal-8-plugin-api/5-manager/plugin-manager-class.html",
-    "drupal-8-plugin-api/5-manager/how-to-use.html"
+    "drupal-8-plugin-api/5-manager/how-to-use.html",
+    "drupal-8-plugin-api/6-discovery/plugin-discovery.html",
+    "drupal-8-plugin-api/6-discovery/annotation-discovery.html",
+    "drupal-8-plugin-api/6-discovery/yaml-discovery.html",
+    "drupal-8-plugin-api/6-discovery/static-discovery.html",
+    "drupal-8-plugin-api/6-discovery/hook-discovery.html",
+    "drupal-8-plugin-api/6-discovery/discovery-decorators.html"
 ]

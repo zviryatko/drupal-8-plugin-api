@@ -1,0 +1,12 @@
+<h2>Discovery <span class="highlighted-2">decorators</span></h2>
+
+<div class="fragment">
+    <p>Combine them all together with decorators</p>
+    <pre><code data-trim>
+$d = new AnnotatedClassDiscovery("Plugin/sandwich", $nmspaces);
+$d = new ContainerDerivativeDiscoveryDecorator($d);
+$d = new YamlDiscoveryDecorator($d, 'sandwich', $directories);
+$d = new InfoHookDecorator($d, 'sandwich_info');
+$d = new StaticDiscoveryDecorator($d, "callback");
+    </code></pre>
+</div>

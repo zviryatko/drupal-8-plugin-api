@@ -1,0 +1,18 @@
+<h2><span class="highlighted-2">Static</span> discovery</h2>
+
+<p class="fragment">Useful when you need to add 3rd-party class as plugin</p>
+
+<div class="fragment">
+    <pre><code data-trim>
+class SandwichPluginManager extends DefaultPluginManager {
+  protected function getDiscovery() {
+    $this->discovery = new StaticDiscovery();
+    $this->discovery->setDefinition('cheese_sandwich', [
+      'label' => new TranslatableMarkup('Cheese Sandwich'),
+      'class' => '\Some\Vendor\Library\CheeseSandwich',
+    ]);
+    return $this->discovery;
+  }
+}
+    </code></pre>
+</div>

@@ -1,0 +1,26 @@
+<h2><span class="highlighted-2">Annotation</span> discovery</h2>
+
+<div class="fragment">
+    <p>You already saw it</p>
+    <pre><code data-trim>
+/**
+ * @Block(
+ *   id = "system_menu_block",
+ *   admin_label = @Translation("Menu"),
+ * )
+ */
+    </code></pre>
+</div>
+
+<p class="fragment">This is much better then ctools <code>$plugin = array();</code></p>
+
+<div class="fragment">
+    <p>Use in plugin manager</p>
+    <pre><code data-trim>
+new AnnotatedClassDiscovery(
+  "Plugin/Sandwich", // Subdirectory
+  $namespaces, // Service "container.namespaces"
+  "Drupal\Core\Block\Annotation\Block" // Annotation @Block
+);
+    </code></pre>
+</div>

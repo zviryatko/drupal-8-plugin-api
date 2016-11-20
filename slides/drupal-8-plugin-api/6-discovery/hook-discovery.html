@@ -1,0 +1,22 @@
+<h2><span class="highlighted-2">Hook</span> discovery</h2>
+
+<p class="fragment">Good old <code>hook_info()</code></p>
+
+<div class="fragment">
+    <pre><code data-trim>
+class SandwichPluginManager extends DefaultPluginManager {
+  protected function getDiscovery() {
+    $this->discovery = new HookDiscovery(
+      $this->moduleHandler,
+      "sandwich_info"
+    );
+    return $this->discovery;
+  }
+}
+    </code></pre>
+</div>
+
+<div class="fragment">
+    <p>For <code>hook_info_alter()</code> use this</p>
+    <pre><code data-trim>$this->alterInfo("sandwich_info");</code></pre>
+</div>
