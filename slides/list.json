@@ -31,5 +31,6 @@
     "drupal-8-plugin-api/6-discovery/yaml-discovery.html",
     "drupal-8-plugin-api/6-discovery/static-discovery.html",
     "drupal-8-plugin-api/6-discovery/hook-discovery.html",
-    "drupal-8-plugin-api/6-discovery/discovery-decorators.html"
+    "drupal-8-plugin-api/6-discovery/discovery-decorators.html",
+    "drupal-8-plugin-api/7-funny-v2/is-it-all.html"
 ]
