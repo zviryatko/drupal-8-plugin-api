@@ -13,5 +13,9 @@
     "drupal-8-plugin-api/2-how-to-add/how-to-define.html",
     "drupal-8-plugin-api/2-how-to-add/what-the-code.html",
     "drupal-8-plugin-api/3-funny/looks-simple.html",
-    "drupal-8-plugin-api/3-funny/tired-v1.html"
+    {
+      "attr": {
+        "data-background": "resources/img/tired-puppy.png"
+      }
+    }
 ]
