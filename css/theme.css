@@ -10,28 +10,6 @@
 section.has-light-background, section.has-light-background h1, section.has-light-background h2, section.has-light-background h3, section.has-light-background h4, section.has-light-background h5, section.has-light-background h6 {
   color: #5dbf5a; }
 
-.reveal a {
-  line-height: 1.3em; }
-
-section span.highlighted-1 {
-  color: #EF3E36; }
-
-section span.highlighted-2 {
-  color: #1B4965; }
-
-section span.highlighted-3 {
-  color: #efef5b; }
-
-img.profile-picture {
-  border-radius: 50%; }
-
-.reveal section img.logo-picture {
-  display: inline;
-  border: 0;
-  box-shadow: none;
-  background: inherit;
-  margin: 0; }
-
 /*********************************************
  * GLOBAL STYLES
  *********************************************/
@@ -891,3 +869,32 @@ body {
   -webkit-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
   -moz-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
   transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985); }
+
+.reveal a {
+  line-height: 1.3em; }
+
+section .highlighted-1 {
+  color: #EF3E36; }
+
+section .highlighted-2 {
+  color: #1B4965; }
+
+section .highlighted-3 {
+  color: #6c6c6c; }
+
+img.profile-picture {
+  border-radius: 50%; }
+
+.reveal section img.logo-picture {
+  display: inline;
+  border: 0;
+  box-shadow: none;
+  background: inherit;
+  margin: 0; }
+
+.reveal pre {
+  width: 100%;
+  font-size: 0.68em; }
+
+.reveal pre code {
+  max-height: 600px; }

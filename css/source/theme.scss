@@ -62,21 +62,30 @@ section.has-light-background {
   @include radial-gradient( #99ffb1, #fff);
 }
 
+// Theme template ------------------------------
+@import "../../bower_components/reveal.js/css/theme/template/theme";
+@import "../../bower_components/reveal.js/css/theme/source/sky";
+// ---------------------------------------------
+
+// Theme template ------------------------------
+@import "../../bower_components/reveal.js/css/theme/template/theme";
+// ---------------------------------------------
+
 // Fix links so they are not cut off
 .reveal a {
   line-height: 1.3em;
 }
 
-section span.highlighted-1 {
+section .highlighted-1 {
   color: #EF3E36;
 }
 
-section span.highlighted-2 {
+section .highlighted-2 {
   color: #1B4965;
 }
 
-section span.highlighted-3 {
-  color: #efef5b;
+section .highlighted-3 {
+  color: #6c6c6c;
 }
 
 img.profile-picture {
@@ -91,11 +100,11 @@ img.profile-picture {
   margin: 0;
 }
 
-// Theme template ------------------------------
-@import "../../bower_components/reveal.js/css/theme/template/theme";
-@import "../../bower_components/reveal.js/css/theme/source/sky";
-// ---------------------------------------------
+.reveal pre {
+  width: 100%;
+  font-size: 0.68em;
+}
 
-// Theme template ------------------------------
-@import "../../bower_components/reveal.js/css/theme/template/theme";
-// ---------------------------------------------
+.reveal pre code {
+  max-height: 600px;
+}
