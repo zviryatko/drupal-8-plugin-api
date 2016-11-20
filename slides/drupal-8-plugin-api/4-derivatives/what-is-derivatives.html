@@ -5,5 +5,6 @@
 <pre class="fragment"><code data-trim>
 foreach (module_implements('block_info') as $module) {
   $module_blocks = module_invoke($module, 'block_info');
+  $blocks[$module] = $module_blocks;
 }
 </code></pre>
