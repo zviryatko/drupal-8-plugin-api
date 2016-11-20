@@ -1,7 +1,7 @@
 {
   "generator-reveal": {
     "presentationTitle": "Drupal 8 Plugin API",
-    "packageVersion": "0.3.0",
+    "packageVersion": "0.3.1",
     "revealTheme": "league",
     "useSass": false,
     "deployToGithubPages": true,
