@@ -11,7 +11,7 @@
 class SystemMenuBlock extends DeriverBase {
   // ...
   public function getDerivativeDefinitions($base_definition) {
-    $blocks = ($this->menuStorage->loadMultiple();
+    $blocks = $this->menuStorage->loadMultiple();
     foreach ($blocks as $menu => $entity) {
       $this->derivatives[$menu] = $base_definition;
     }
