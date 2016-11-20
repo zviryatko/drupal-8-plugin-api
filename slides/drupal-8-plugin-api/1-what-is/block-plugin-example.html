@@ -1,0 +1,23 @@
+<p><code class="highlighted-3">src/Plugin/Block/SimpleMessageBlock.php</code></p>
+<pre><code data-trim>
+/**
+ * Defines a block with simple message.
+ *
+ * @Block(
+ *   id = "simple_message",
+ *   admin_label = @Translation("Simple Message"),
+ * )
+ */
+class SimpleMessageBlock extends BlockBase {
+  /**
+   * {@inheritdoc}
+   */
+  public function build() {
+    return [
+      'message' => [
+        '#markup' => $this->t('Just a simple message.'),
+      ],
+    ];
+  }
+}
+</code></pre>
