@@ -1,0 +1,11 @@
+{
+  "generator-reveal": {
+    "presentationTitle": "Drupal 8 Plugin API",
+    "packageVersion": "0.1.0",
+    "revealTheme": "league",
+    "useSass": false,
+    "deployToGithubPages": true,
+    "githubUsername": "zviryatko",
+    "githubRepository": "drupal-8-plugin-api"
+  }
+}
